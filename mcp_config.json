@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "debugmcp": {
+            "command": "npx",
+            "args": [
+                "tsx",
+                "/path/to/this/project/bridge.ts"
+            ],
+            "env": {
+                "DEBUGMCP_PORT": "3001"
+            },
+            "disabled": false
+        }
+    }
+}
